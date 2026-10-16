@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>College Event Portal</title>
+<style>
+body {
+    font-family: Arial;
+    text-align: center;
+    margin: 0;
+    background: #f2f2f2;
+}
+header, footer {
+    background: navy;
+    color: white;
+    padding: 15px;
+}
+nav {
+    background: #333;
+    padding: 12px;
+}
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+}
+.card {
+    background: white;
+    margin: 20px auto;
+    padding: 15px;
+    width: 250px;
+    border-radius: 8px;
+}
+button {
+    background: navy;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>College Event Portal</h1>
+<p>Discover and Register for Events</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#events">Events</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<h2>Upcoming Events</h2>
+
+<div id="events" class="card">
+<h3>Technical Fest</h3>
+<p>Date: 20 October</p>
+<p>Venue: Auditorium</p>
+<button onclick="register()">Register</button>
+</div>
+
+<div class="card">
+<h3>Cultural Fest</h3>
+<p>Date: 25 October</p>
+<p>Venue: College Ground</p>
+<button onclick="register()">Register</button>
+</div>
+
+<footer id="contact">
+<p>Contact: events@college.com</p>
+<p>© 2026 College Event Portal</p>
+</footer>
+
+<script>
+function register() {
+    alert("Registration Successful!");
+}
+</script>
+
+</body>
+</html>  
